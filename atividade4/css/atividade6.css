@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+header{
+    position: relative;
+    width: 100%;/* ocupa toda a largura */
+    height: 100px;/* altura do cabeçalho */
+    background-color: yellowgreen;
+     display: flex; /* ativa recurso de alinhamento */
+    flex-direction: row; /* alinhamento em linha ou coluna */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    float: left;
+    font-family: arial;
+    text-align: start;
+    font-size: 20px;
+}
+
+#lado_esquerdo{
+    position: relative;
+    width: 30%;
+    height: 700px;
+    background-color: rgb(134, 224, 224);
+    float: left;
+}
+#lado_esquerdo p{
+    color: black;
+   font-family: arial;
+    text-align: start;
+    font-size: 20px;
+}
+nav{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 10%;
+    text-align: start;
+    font-size: 20px;
+}
+aside{
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 30px;
+    text-align: start;
+    font-size: 20px;
+}
+#lado_direito{
+    position: relative;
+    background-color: blueviolet;
+    float: left;
+    width: 70%;
+    height: 700px;
+    text-align: start;
+    font-size: 26px;
+}
+#tag_article {
+    background-color: white;
+    width: 94%;
+    height: 95%;
+    display: flex;
+    flex-direction: column; /* empilha p e h1 */
+    justify-content: flex-start; /* mantém no topo */
+    margin-left: 5%;
+    font-family: arial;
+    text-align: start;
+    font-size: 20px;
+}
+
+
+
+/* h1 centralizado */
+#tag_article h1 {
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+    display: flex; /* ativa recurso de alinhamento */
+    flex-direction: row; /* alinhamento em linha ou coluna */
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-family: arial;
+    text-align: start;
+    font-size: 20px;
+}
+#area{
+     background-color: brown;
+    width: 100%;             /* largura do p */
+    height: 280px;           /* altura desejada */
+  
+    margin-top: 10px;   /* centraliza o texto dentro do p */  
+    font-family: arial;
+    text-align: start;
+    font-size: 20px; 
+}
+#imagem{
+    margin-top: 10px;
+    background-color: lavender;
+    width: 100%;             /* largura do p */
+    height: 280px;           /* altura desejada */
+     /* centraliza o texto dentro do p */ 
+    font-family: arial;
+    text-align: start;
+    font-size: 20px;
+}
+footer{
+    width: 100%;                 /* ocupa toda a largura */
+    height: 60px;
+    background-color: black; /* cor do fundo */
+    color: white;                /* cor do texto */        
+    padding: 20px 0;             /* espaço interno */
+    position: relative;          /* mantém dentro do fluxo normal */
+    margin-top: 20px;            /* separação do conteúdo acima */
+    clear: both;                 /* garante que não fique ao lado de floats */
+   font-family: arial;
+    text-align: start;
+    font-size: 19px;
+
+}

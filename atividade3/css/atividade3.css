@@ -1,0 +1,50 @@
+
+#fundo{
+    position: relative;
+    width: 73%; /* largura total da página */
+    height: 720px; /* altura total da página */
+    margin: auto; /* remove margens padrão */
+}
+
+#camada1 {
+    position: relative;
+    width: 170px; /* largura exata */
+    height: 120px;   /* altura exata */
+    background: blue;   /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    float: left; /* alinha à esquerda */
+    
+}
+#camada2 {
+    position: relative;
+    width: 895px;  /* ocupa o restante da largura */
+    height: 120px;   /* mesma altura da camada 1 */
+    background: red;    /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    float: left; /* alinha à esquerda */
+}
+#camada3 {
+    position: relative;
+    width: 1065px; /* ocupa toda a largura */
+    height: 60px; /* altura exata */
+    background: green; /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    float: left; 
+} 
+#camada4 {
+    position: relative;
+    width: 1046px;    /* ocupa toda a largura */
+    height: 450px; /* ocupa até antes do rodapé */
+    background: yellow; /* cor de fundo */
+    border: 10px solid red; /* borda vermelha */
+    text-align: center; /* centraliza o texto */
+    float: left; /* alinha à esquerda */
+}
+#camada5 {
+    position: relative;
+    width: 1065px; /* ocupa 90% da largura */
+    height: 70px; /* altura exata */
+    background: gray;   /* cor de fundo */
+    text-align: center; /* centraliza o texto */
+    float: left; /* alinha à esquerda */
+}

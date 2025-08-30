@@ -1,0 +1,50 @@
+#camada1{
+            position: absolute; /* posição absoluta sobre a pagina */
+            top: 200px; /* distância do topo */
+            left: 200px; /* distância da esquerda */
+            width: 150px; /* largura da camada */
+            height: 120px; /* altura da camada */
+            background-color:yellow; /* cor de fundo com transparência */
+            border: 5px solid red; /* borda da camada */
+            text-align: center; /* alinha o texto ao centro */
+            font-size: 12px; /* tamanho da fonte */
+            z-index: 1; /* define a camada como a mais alta */
+        }
+        #camada2{
+            position: absolute; /* posição absoluta sobre a pagina */
+            top: 350px; /* distância do topo */
+            left: 200px; /* distância da esquerda */
+            width: 150px; /* largura da camada */
+            height: 120px; /* altura da camada */
+            background-color:silver; /* cor de fundo com transparência */
+            border: 5px solid black; /* borda da camada */
+            text-align: center; /* alinha o texto ao centro */
+            font-size: 12px; /* tamanho da fonte */
+            z-index: 2; /* define a camada como a mais alta */
+
+        }
+        #camada3{
+            position: absolute; /* posição absoluta sobre a pagina */
+            top: 250px; /* distância do topo */
+            left: 300px; /* distância da esquerda */
+            width: 150px; /* largura da camada */
+            height: 120px; /* altura da camada */
+            background-color:blue; /* cor de fundo com transparência */
+            border: 5px solid green; /* borda da camada */
+            text-align: center; /* alinha o texto ao centro */
+            font-size: 12px; /* tamanho da fonte */
+            z-index: 3; /* define a camada como a mais baixa */
+
+        }
+        #camada4{
+            position: absolute; /* posição absoluta sobre a pagina */
+            top: 400px; /* distância do topo */
+            left: 300px; /* distância da esquerda */
+            z-index: 4; /* define a camada como a mais baixa */
+           
+        }
+        #camada4 img{
+            width: 300px; /* largura da imagem */
+            height: 200px; /* altura da imagem */
+            border: 5px solid purple; /* borda da imagem */
+        }
