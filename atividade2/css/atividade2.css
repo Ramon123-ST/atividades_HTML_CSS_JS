@@ -1,0 +1,67 @@
+
+#camada1 {
+    position: absolute;
+    top: 1; /* posição no topo da página */
+    left: 15%;    /* posição à esquerda da página */
+    width: 10%; /* largura exata */
+    height: 100px;   /* altura exata */
+    background: blue;   /* cor de fundo */
+    color: black;   /* cor do texto */
+    z-index: 1; /* camada mais baixa */
+    text-align: center; /* centraliza o texto */
+    font-weight: bold; /* texto em negrito */
+    
+}
+
+#camada2 {
+    position: absolute;
+    top: 1; /* mesma altura da camada 1 */
+    left: 25%; /* começa após a camada 1 */
+    width: 60%;  /* ocupa o restante da largura */
+    z-index: 1; /* camada acima da camada 1 */
+    height: 100px;   /* mesma altura da camada 1 */
+    background: red;    /* cor de fundo */
+    color: black;   /* cor do texto */
+    text-align: center; /* centraliza o texto */
+    font-weight: bold; /* texto em negrito */
+}
+
+#camada3 {
+    position: absolute;
+    top: 108px; /* abaixo das camadas 1 e 2 */
+    left: 15%;    /* começa na esquerda */
+    width: 70%;    /* ocupa toda a largura */
+    z-index: 1; /* camada acima da camada 1 */
+    height: 53px;   /* altura exata */
+    background: lime;   /* cor de fundo */
+    color: black;   /* cor do texto */
+    font-weight: bold; /* texto em negrito */
+    text-align: center; /* centraliza o texto */
+}
+
+#camada4 {
+    position: absolute;
+    top: 161px; /* abaixo da camada 3 */
+    left: 15%;   /* começa na esquerda */ 
+    width: 69%;    /* ocupa toda a largura */
+    z-index: 1; /* camada acima da camada 1 */
+    height: 68%; /* ocupa até antes do rodapé */
+    background: yellow; /* cor de fundo */
+    border: 8px solid red; /* borda vermelha */
+    color: black;   /* cor do texto */
+    text-align: center; /* centraliza o texto */
+    font-weight: bold;  /* texto em negrito */
+}
+
+#camada5 {
+    position: absolute;
+    left: 15%; /* centraliza horizontalmente */
+    width: 70%; /* ocupa 90% da largura */
+    top: 92%; /* fica abico da camada 4 */
+    z-index: 1; /* camada acima da camada 1 */
+    height: 50px; /* altura exata */
+    background: gray;   /* cor de fundo */
+    color: black;   /* cor do texto */
+    text-align: center; /* centraliza o texto */
+    font-weight: bold; /* texto em negrito */
+}
