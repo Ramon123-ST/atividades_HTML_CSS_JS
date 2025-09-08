@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!--Criar um programa em Java, que informe a quantidade total de 
+    calorias de uma refeição a partir do usuário que deverá informar 
+    o prato, a sobremesa e a bebida -->
+
+<script>
+   
+    let prato = parseInt(prompt("Escolha o prato:\n1 - Vegetariano \n2 - Peixe \n3 - Frango \n4 - Carne "));
+    let caloriasPrato = 0;
+
+    if (prato == 1) caloriasPrato = 180;
+    else if (prato == 2) caloriasPrato = 230;
+    else if (prato == 3) caloriasPrato = 250;
+    else if (prato == 4) caloriasPrato = 350;
+
+    
+    let sobremesa = parseInt(prompt("Escolha a sobremesa:\n1 - Abacaxi \n2 - Sorvete diet \n3 - Mousse diet \n4 - Mousse chocolate "));
+    let caloriasSobremesa = 0;
+
+    if (sobremesa == 1) caloriasSobremesa = 75;
+    else if (sobremesa == 2) caloriasSobremesa = 110;
+    else if (sobremesa == 3) caloriasSobremesa = 170;
+    else if (sobremesa == 4) caloriasSobremesa = 200;
+
+    
+    let bebida = parseInt(prompt("Escolha a bebida:\n1 - Chá (20 cal)\n2 - Suco de laranja (70 cal)\n3 - Suco de melão (100 cal)\n4 - Refrigerante diet (65 cal)"));
+    let caloriasBebida = 0;
+
+    if (bebida == 1) caloriasBebida = 20;
+    else if (bebida == 2) caloriasBebida = 70;
+    else if (bebida == 3) caloriasBebida = 100;
+    else if (bebida == 4) caloriasBebida = 65;
+
+   
+    let totalCalorias = caloriasPrato + caloriasSobremesa + caloriasBebida;
+
+    
+    document.write("Total de calorias da refeição: " + totalCalorias + " cal");
+</script>
+
+</body>
+</html>

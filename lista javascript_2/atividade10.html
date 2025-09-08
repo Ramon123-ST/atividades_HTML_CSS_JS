@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Informar um saldo e mostrar na tela
+     o saldo com reajuste de 1.5%.-->
+
+<script>
+    
+    let saldo = parseFloat(prompt("Digite o valor do saldo:"));
+
+    let saldoReajustado = saldo * 1.015;
+
+   
+    document.write("Saldo informado: R$ " + saldo.toFixed(2) + "<br>");
+    document.write("Saldo com reajuste de 1,5%: R$ " + saldoReajustado.toFixed(2));
+</script>
+
+</body>
+</html>

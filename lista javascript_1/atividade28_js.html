@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--Faça um programa que leia o peso e a altura 
+     de uma pessoa e exiba o seu Índice de Massa 
+     Corporal (IMC) e a sua classificação. Considere
+      a tabela de classificação do IMC.-->
+
+<script>
+
+    let peso = parseFloat(prompt("Digite seu peso em kg:"));
+    let altura = parseFloat(prompt("Digite sua altura em metros:"));
+
+ 
+    let imc = peso / (altura * altura);
+
+
+    let classificacao;
+    if (imc < 18.5) 
+    {classificacao = "Abaixo do peso";} 
+    
+    else if (imc >= 18.5 && imc < 25) 
+    {classificacao = "Peso normal";}
+     
+    else if (imc >= 25 && imc < 30) 
+    {classificacao = "Sobrepeso";} 
+    
+    else if (imc >= 30 && imc < 35) 
+    {classificacao = "Obesidade grau I";} 
+    
+    else if (imc >= 35 && imc < 40)
+     {classificacao = "Obesidade grau II";}
+     
+    else {classificacao = "Obesidade grau III";}
+
+
+    document.write("Seu IMC é: " + imc.toFixed(2) + "<br>");
+    document.write("Classificação:" + classificacao + "<br>");
+</script>
+
+</body>
+</html>

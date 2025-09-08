@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <!--Faça um programa que solicite dois números
+    inteiros e exiba a soma, subtração, multiplicação
+    e divisão entre eles.-->
+
+<script>
+   
+    let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+    let numero2 = parseFloat(prompt("Digite o segundo número:"));
+
+    let soma = numero1 + numero2;
+    let subtracao = numero1 - numero2;
+    let multiplicacao = numero1 * numero2;
+    let divisao = numero2 !== 0 ? (numero1 / numero2) : "Não é possível dividir por zero";
+
+    document.write("<h2>Resultados:</h2>");
+    document.write("O resultado da soma é: " + soma + "<br>");
+    document.write("O resultado da subtração é: " + subtracao + "<br>");
+    document.write("O resultado da multiplicação é: " + multiplicacao + "<br>");
+    document.write("O resultado da divisão é: " + divisao + "<br>");
+</script>
+
+</body>
+</html>

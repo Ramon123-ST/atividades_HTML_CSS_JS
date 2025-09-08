@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Crie um programa que leia o valor do salário mínimo e o valor do salário
+     de um usuário, calcule a quantidade de salários mínimos esse usuário ganha
+      e imprima o resultado. (Salário mínimo = R$1.212,00).-->
+
+    <script>
+  
+      let salarioMinimo = 1.212;
+
+
+      let salarioUsuario = parseFloat(prompt("Digite o valor do seu salário (R$):"));
+
+
+      let quantidade = salarioUsuario / salarioMinimo;
+
+
+        document.write("O salário informado foi: R$ " + salarioUsuario.toFixed(2) + "<br>");
+        document.write("Você recebe aproximadamente " + quantidade.toFixed(2) + " salários mínimos.");
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Escreva um programa que leia o preço de um produto e a quantidade comprada,
+    e calcule o valor total a ser pago com desconto de 10% se a quantidade for maior que
+     10 unidades.-->
+
+     <script>
+     
+         let preco = parseFloat(prompt("Digite o preço do produto:"));
+         let quantidade = parseInt(prompt("Digite a quantidade comprada:"));
+    
+      
+         let total = preco * quantidade;
+
+    if (quantidade > 10) {
+    total = total - (total * 0.10); 
+}
+
+
+        alert("Valor total a pagar: R$ " + total.toFixed(2));
+    
+    
+    </script>
+</body>
+</html>
