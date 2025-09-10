@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Escreva um programa que leia a idade de uma
+     pessoa em anos, meses e dias, e calcule quantos 
+     dias de vida ela tem.-->
+
+    <h1>Cálculo de Dias de Vida</h1>
+<script>
+   
+    let anos = parseInt(prompt("Digite sua idade em anos:"));
+    let meses = parseInt(prompt("Digite os meses adicionais:"));
+    let dias = parseInt(prompt("Digite os dias adicionais:"));
+
+    let diasDeVida = (anos * 365) + (meses * 30) + dias;
+
+
+    document.write("Resultado:");
+    document.write("Você tem aproximadamente" + diasDeVida + " dias de vida.");
+</script>
+
+</body>
+</html>

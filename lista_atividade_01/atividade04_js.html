@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Ponderada</title>
+</head>
+<body>
+    
+    <!--Faça um programa que receba três notas
+     de um aluno (cada nota de 0 a 10) e calcule
+      a média ponderada considerando pesos 2, 3 e 5
+       para as notas, respectivamente. -->
+
+    <script>
+
+        let nota1 = parseFloat(prompt("Digite a primeira nota (peso 2):"));
+        let nota2 = parseFloat(prompt("Digite a segunda nota (peso 3):"));
+        let nota3 = parseFloat(prompt("Digite a terceira nota (peso 5):"));
+
+        let peso1 = 2;
+        let peso2 = 3;
+        let peso3 = 5;
+
+          let media = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+
+        document.write("Primeira nota: " + nota1 + " (peso " + peso1 + ")<br>");
+        document.write("Segunda nota: " + nota2 + " (peso " + peso2 + ")<br>");
+        document.write("Terceira nota: " + nota3 + " (peso " + peso3 + ")<br>");
+        document.write("Média ponderada: " + media + "<br>");
+        </script>
+</body>
+</html>
