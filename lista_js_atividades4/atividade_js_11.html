@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Leia 20 números e exiba quantos deles são maiores que 8. -->
+
+  <script>
+    let contador = 0; 
+    const totalNumeros = 20;
+
+    for (let i = 1; i <= totalNumeros; i++) {
+      let numero = parseFloat(prompt("Digite o " + i + "º número:"));
+
+      if (numero > 8) {
+        contador++; 
+      }
+    }
+
+    document.write("Quantidade de números maiores que 8: " + contador);
+  </script>
+</body>
+
+</body>
+</html>

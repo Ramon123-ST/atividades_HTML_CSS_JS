@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Leia o nome e a idade de 10 pessoas e exiba o nome da pessoa mais nova. -->
+
+  <script>
+    let nomeMaisNova = "";
+    let idadeMaisNova = Infinity; 
+    const totalPessoas = 10;
+
+    for (let i = 1; i <= totalPessoas; i++) {
+      let nome = prompt("Digite o nome da " + i + " pessoa:");
+      let idade = parseInt(prompt("Digite a idade da " + i + " pessoa:"));
+
+      if (idade < idadeMaisNova) {
+        idadeMaisNova = idade;
+        nomeMaisNova = nome;
+      }
+    }
+
+    document.write("A pessoa mais nova é " + nomeMaisNova + " com " + idadeMaisNova + " anos.");
+  </script>
+</body>
+
+</body>
+</html>

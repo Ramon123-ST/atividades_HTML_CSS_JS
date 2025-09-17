@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Leia 20 números e exiba quantos estão nos seguintes intervalos: 
+    entre 0 e 100, entre 101 e 200 e acima de 200. -->
+
+  <script>
+    let entre0e100 = 0;
+    let entre101e200 = 0;
+    let acima200 = 0;
+    const totalNumeros = 20;
+
+    for (let i = 1; i <= totalNumeros; i++) {
+      let numero = parseFloat(prompt("Digite o " + i + "º número:"));
+
+      if (numero >= 0 && numero <= 100) {
+        entre0e100++;
+      } else if (numero >= 101 && numero <= 200) {
+        entre101e200++;
+      } else if (numero > 200) {
+        acima200++;
+      }
+    }
+
+    document.write("Números entre 0 e 100: " + entre0e100 + "<br>");
+    document.write("Números entre 101 e 200: " + entre101e200 + "<br>");
+    document.write("Números maiores que 200: " + acima200);
+  </script>
+</body>
+
+</body>
+</html>

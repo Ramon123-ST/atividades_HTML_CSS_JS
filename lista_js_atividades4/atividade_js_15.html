@@ -6,16 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Escreva um programa que leia uma quantidade indeterminada de números positivos e conte quantos 
-    números foram digitados. O programa deve parar quando o usuário digitar um número negativo. 
-    Exibir a soma dos números digitados. -->
+    
+    <!-- Leia números até que um número negativo seja informado. Ao final, exiba a soma dos números lidos.-->
 
   <script>
     let soma = 0;
-    let numero = 0; 
+    let numero = 0; // valor inicial só para entrar no while
 
     while (numero >= 0) {
-      numero = parseFloat(prompt("Digite um número (negativo para sair):"));
+      numero = parseFloat(prompt("Digite um número (negativo para encerrar):"));
+      
       if (numero >= 0) {
         soma += numero;
       }
@@ -24,7 +24,6 @@
     document.write("A soma dos números digitados é: " + soma);
   </script>
 </body>
-
 
 </body>
 </html>

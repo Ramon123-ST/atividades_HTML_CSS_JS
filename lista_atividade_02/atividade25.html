@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Escreva um programa que leia uma quantidade indeterminada de números positivos e conte quantos 
+    números foram digitados. O programa deve parar quando o usuário digitar um número negativo. 
+    Exibir a soma dos números digitados. -->
+
+  <script>
+    let soma = 0;
+    let numero = 0; // valor inicial só para entrar no while
+
+    while (numero >= 0) {
+      numero = parseFloat(prompt("Digite um número (número negativo para encerrar):"));
+      
+      if (numero >= 0) {
+        soma += numero; // acumula somente se não for negativo
+      }
+    }
+
+    document.write("A soma dos números digitados é: " + soma);
+  </script>
+</body>
+
+</body>
+</html>

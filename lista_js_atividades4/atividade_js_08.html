@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Leia a idade de 20 pessoas e exiba quantas são maiores de idade. -->
+
+  <script>
+    let maiorIdade = 0;
+    const totalPessoas = 20;
+
+    for (let i = 1; i <= totalPessoas; i++) {
+      let idade = parseInt(prompt("Digite a idade da " + i + "ª pessoa:"));
+      
+      if (idade >= 18) {
+        maiorIdade++; 
+      }
+    }
+
+    document.write("Número de pessoas maiores de idade: " + maiorIdade);
+  </script>
+</body>
+
+</body>
+</html>

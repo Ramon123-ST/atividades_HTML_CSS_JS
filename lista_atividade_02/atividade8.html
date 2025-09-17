@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--
+- a porcentagem do IPI a ser acrescido no valor das peças 
+- o código da peça 1, valor unitário da peça 1, quantidade de peças 1 
+- o código da peça 2, valor unitário da peça 2, quantidade de peças 2 
+O programa deve calcular o valor total a ser pago e apresentar o resultado. 
+Cálculo : (valor1*quant1 + valor2*quant2)*(IPI/100 + 1)  -->
+
+  <script>
+    // Lendo o valor do IPI
+    let ipi = parseFloat(prompt("Digite a porcentagem do IPI (%):"));
+
+    // Dados da peça 1
+    let cod1 = prompt("Digite o código da peça 1:");
+    let valor1 = parseFloat(prompt("Digite o valor unitário da peça 1:"));
+    let quant1 = parseInt(prompt("Digite a quantidade da peça 1:"));
+
+    // Dados da peça 2
+    let cod2 = prompt("Digite o código da peça 2:");
+    let valor2 = parseFloat(prompt("Digite o valor unitário da peça 2:"));
+    let quant2 = parseInt(prompt("Digite a quantidade da peça 2:"));
+
+    // Cálculo do total
+    let total = (valor1 * quant1 + valor2 * quant2) * (ipi / 100 + 1);
+
+    // Mostrando o resultado
+    document.write("<h2>Resumo da Compra</h2>");
+    document.write("Peça 1 (código " + cod1 + "): " + quant1 + " unidades, R$ " + valor1.toFixed(2) + " cada.<br>");
+    document.write("Peça 2 (código " + cod2 + "): " + quant2 + " unidades, R$ " + valor2.toFixed(2) + " cada.<br>");
+    document.write("IPI: " + ipi + "%<br>");
+    document.write("Valor total a pagar: R$ " + total.toFixed(2) + "<br>");
+  </script>
+</body>
+
+</body>
+</html>
