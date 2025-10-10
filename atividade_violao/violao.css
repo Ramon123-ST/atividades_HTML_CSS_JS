@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  background-image: url('img/guitarra_fundo_body.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 78vh; 
+  background-color: #fff; 
+}
+
+
+main{
+    position: relative;
+    width: 1240px;
+    height: auto;
+    margin: auto;
+    font-family:  sans-serif;
+}
+
+
+
+img{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.navbar {
+  position: absolute;
+  top: 90px;     
+  right: 60px;    
+  background-color: #ffffff; 
+  padding: 10px 20px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.navbar ul li a {
+  color: rgb(232, 9, 9);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+#parte1 {
+    background-color: #b60000;
+    margin-top: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.conteudo {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.texto {
+    position: relative;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+.loja img {
+    position: relative;
+    width: 155%;
+    height: 250px;
+}
+
+
+#parte2 {
+    position: relative;
+    background-color: #f3f8fb;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin-top: 15px;
+}
+.produtos {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
+.item img {
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+.item span {
+    position: relative;
+    color: red;
+}
+
+
+
+
+#parte3 {
+  background-color: #b9541e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  margin-top: 15px;
+}
+.conteiner {
+  background-color: #c36a2b; 
+}
+#texto{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.533);
+  padding: 20px;
+  margin-left: 130px;
+}
+#img{
+    width: 400px;
+    height: 290px;
+}
+
+
+
+#parte4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 15px;
+  height: 150%;
+  margin-right: 20px;
+}
+.formulario {
+  display: flex;
+  gap: 460px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+input, textarea {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px; 
+}
+#pedidos {
+  width: 280px; 
+  height: 100px;
+  font-size: 16px;
+}
+button {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+ h3 {
+  color: blue;
+  margin-top: 110px;
+}
+.icones img {
+  top: 15px;
+  width: 70px;
+  height: 70px;
+}
+
+
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+footer img {
+  top: 15px;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+  h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .icones img,
+  footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+  }
+  footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+
+  /* Media Queries para Responsividade */
+
+/* Tablet e Desktop Médio (até 1024px) */
+@media (max-width: 1024px) {
+  main {
+    width: 95%;
+    max-width: 900px;
+  }
+
+  .navbar {
+    top: 80px;
+    right: 20px;
+    padding: 8px 15px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+  }
+
+  #parte1 {
+    padding: 20px;
+  }
+
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .texto {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .loja img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+
+  #parte2 {
+    padding: 20px 0;
+  }
+
+  .produtos {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item {
+    width: 200px;
+    flex: 1 1 45%;
+    max-width: 220px;
+  }
+
+  #parte3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  #texto {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  #parte4 {
+    padding: 20px;
+    height: auto;
+  }
+
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  #pedidos {
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .icones img,
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+}
