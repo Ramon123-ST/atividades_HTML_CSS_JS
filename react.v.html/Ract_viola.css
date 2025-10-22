@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main{
+    position: relative;
+    width: 1240px;
+    height: auto;
+    margin: auto;
+    font-family:  sans-serif;
+    background-color: #b9541e;
+}
+
+
+
+img{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.navbar {
+  position: absolute;
+  top: 90px;     
+  right: 60px;    
+  background-color: #ffffff; 
+  padding: 10px 20px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.navbar ul li a {
+  color: rgb(232, 9, 9);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+#parte1 {
+    background-color: #b60000;
+    margin-top: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.conteudo {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.texto {
+    position: relative;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+.loja img {
+    position: relative;
+    width: 155%;
+    height: 250px;
+}
+
+
+#parte2 {
+    position: relative;
+    background-color: #f3f8fb;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin-top: 15px;
+}
+.produtos {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
+.item img {
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+.item span {
+    position: relative;
+    color: red;
+}
+
+
+
+
+#parte3 {
+  background-color: #b9541e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  margin-top: 15px;
+}
+
+
+#texto {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.533);
+  padding: 20px;
+  margin-left: 130px;
+}
+#img{
+    width: 400px;
+    height: 290px;
+}
+
+#fundo {
+  background-color: #411818b4;
+}
+
+
+.funfo {
+ background-image: url(img/guitarra_fundo_body.jpg);
+}
+
+#parte4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 15px;
+  height: 150%;
+  margin-right: 20px;
+}
+.formulario {
+  display: flex;
+  gap: 460px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+input, textarea {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 5px; 
+}
+#pedidos {
+  width: 280px; 
+  height: 100px;
+  font-size: 16px;
+}
+button {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+ .redes {
+  color: blue;
+  margin-top: 75px;
+}
+.icone img {
+  width: 80px;
+  height: 80px;
+}
+
+
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+ 
+  footer img {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+  }
+
+
+

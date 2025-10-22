@@ -1,0 +1,216 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main {
+  background-color: #d7e4ed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.parte_nav a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logo img {
+  height: 29px;
+}
+
+.carrinho {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.carrinho img {
+  height: 28px;
+}
+
+.cadastrar {
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #007c89;
+  color: white;
+  border: none;
+
+}
+
+
+.conectar {
+  border: 1px solid #000;
+  background: transparent;
+  color: #000;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+
+.cont {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px;
+  margin-left: 110px;
+}
+
+.texto {
+  width: 45%;
+  padding-right: 50px;
+  margin-top: 65px;
+}
+
+.texto h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #1c1c1c;
+  font-weight: 800;
+}
+
+.texto p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #007c89;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+
+
+.imag {
+  position: relative;
+  width: 55%;
+  height: 480px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.moll {
+  position: relative;
+  top: 50px;
+  width: 430px;
+  height: 280px;
+  background-color: #f7e7db;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+
+.ponto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  height: 30px;
+}
+
+.ponto img {
+  width: 20px;
+  height: auto;
+}
+
+.topo img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+
+.caixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.caica {
+  font-size: 16px;
+  color: #a0522d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
+.bob {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.produto img {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  width: 180px;
+}
+
+
+.carte {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  width: 220px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #010101;
+  padding: 20px;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+}
+
+.botes {
+  width: 100%;
+  background-color: #007c89;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.botes:hover {
+  background-color: #006674;
+}
