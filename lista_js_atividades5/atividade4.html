@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Escreva um programa que calcule a média de 5 números fornecidos pelo usuário usando o loop while.-->
+
+             <script>
+
+        let i = 1;
+        let soma = 0;
+        while (i <= 5) {
+            let num = parseInt(prompt(`Digite o ${i}º número: `));
+            soma += num;
+            i++;
+        }
+        document.write("Média = " + (soma / 5));
+
+            </script>
+</body>
+</html>

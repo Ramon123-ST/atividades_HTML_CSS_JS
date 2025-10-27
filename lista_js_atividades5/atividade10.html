@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--Crie um programa que exiba os primeiros 20 números da sequência de Fibonacci usando o loop "while".-->
+
+    <script>
+
+            let a = 0, b = 1;
+            let i = 1;
+            while (i <= 20) {
+                document.write(a + "<br>");
+                [a, b] = [b, a + b];
+                i++;
+            }
+            
+    </script>
+</body>
+</html>

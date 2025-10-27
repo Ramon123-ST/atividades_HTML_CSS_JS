@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Faça um programa que leia um número inteiro e exiba se ele é um número primo usando o loop "while".-->
+
+    <script>
+
+        let n = parseInt(prompt("Digite um número: "));
+        let i = 2;
+        let primo = true;
+        while (i < n) {
+            if (n % i == 0) {
+                primo = false;
+                break;
+            }
+            i++;
+        }
+        document.write(primo && n > 1 ? "É primo" : "Não é primo");
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <!--Crie um programa que leia o nome e a idade de várias pessoas usando o loop "do-while" até 
+        que o nome "fim" seja informado. Ao final, exiba a média das idades.-->
+    
+         <script>
+
+            let soma = 0;
+            let cont = 0;
+            let lista = ""; 
+
+            do {
+                let nome = prompt("Nome (ou 'fim' para parar): ");
+                if (nome.toLowerCase() === "fim") break;
+
+                let idade = parseInt(prompt("Idade: "));
+                soma += idade;
+                cont++;
+
+               
+                lista += "Pessoa " + cont + ": " + nome + " — " + idade + " anos<br>";
+            } while (true);
+
+          
+            document.write("<h3>Lista de pessoas cadastradas:</h3>");
+            document.write(lista || "Nenhuma pessoa cadastrada.<br>");
+            document.write("<hr>");
+
+            if (cont > 0) {
+                document.write("Total de pessoas: " + cont + "<br>");
+                document.write("Soma das idades: " + soma + "<br>");
+                document.write("Média das idades: " + (soma / cont).toFixed(1));
+            } else {
+                document.write("Nenhuma idade foi informada.");
+            }
+
+         </script>
+
+
+</body>
+</html>
